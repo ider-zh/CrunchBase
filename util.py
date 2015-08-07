@@ -1,5 +1,5 @@
 # util.py
-def getOrganizationList(CSV_PATH, IgnoreLine=1, readLine=10):
+def getOrganizationList(CSV_PATH, IgnoreLine=1, readLine=0):
     """
     by ider
     the csv must be organizations.csv
