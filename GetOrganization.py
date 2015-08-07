@@ -20,7 +20,7 @@ companyNames = util.getOrganizationList(CSV_PATH)
 
 # 添加 CrunchBase python包
 from pycrunchbase import CrunchBase
-cb = CrunchBase("27c21624cf305e9764e65a21ce1f75a2")
+cb = CrunchBase("")
 
 # 遍历所有提取到的name
 for name in companyNames:
